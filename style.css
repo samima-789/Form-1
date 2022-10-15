@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #F2EDF1;
+}
+
+h1{
+	text-align: center;
+	margin-top: 50px;
+	color: gray;
+	text-shadow: 1px 1px 6px grey;
+
+}
+
+form{
+	width: 50%;
+	padding: 30px;
+	margin: 0 auto;
+	display: table;
+	
+}
+
+label{
+	width: 100%;
+	display: block;
+	margin-bottom: 5px;
+}
+
+button, input{
+	border: 0;
+	outline: 0;
+	border-radius: 60px;
+	padding: 10px;
+	background: #EBECF0;
+	text-shadow: 1px 1px 1px white;
+	letter-spacing: 1px;
+	font-family: sans-serif;
+}
+
+
+
+input{
+	display: block;
+	width: 80%;
+	box-sizing: border-box;
+	padding: 15px;
+	margin-right: 8px;
+	box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px white;
+	transition: all 1s ease-in-out;
+}
+
+
+button{
+	display: block;
+    width: 80%;
+    color: #AE1100;
+    padding: 15px;
+    font-weight: bold;
+	box-shadow: -5px -5px 20px white, 5px 5px 20px #BABECC;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+}
+
+button:hover{
+	box-shadow: inset 1px 1px 4px white, -1px -1px 2px #BABECC;
+}
+
+button:active{
+	box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 4px white;
+}
+
+.icon{
+	margin: 0 auto;
+	display: table;
+}
+
+
+.button{
+	color: black;
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	border-radius: 50px;
+	margin: 0 8px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .slideshow li span{
+  	background-size: cover;
+  	background-position: 50% 50%;
+  }
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .slideshow li span{
+  	background-size: cover;
+  	background-position: 50% 50%;
+  }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .slideshow li span{
+  	background-size: cover;
+  	background-position: 25% 25%;
+  }
+  
+}
